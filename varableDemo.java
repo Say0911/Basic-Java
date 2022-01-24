@@ -34,23 +34,25 @@ public class varableDemo {
 	int num = 23434;
 	int di;
 	
-	/*
-	 * di = num%10; System.out.print(di); num = num/10; di = num%10;
-	 * System.out.print(di);
-	 * 
-	 * num = num/10; di = num%10; System.out.print(di); num = num/10;
-	 * 
-	 * di = num%10; System.out.print(di); num = num/10;
-	 * 
-	 * di = num%10; System.out.print(di); num = num/10;
-	 */
+	  di = num%10; 
+		System.out.print(di); 
+			num = num/10; 
+			di = num%10;
+	  	System.out.print(di);
+	  		num = num/10; 
+			di = num%10; 
+		System.out.print(di); 
+			num = num/10;
+	  		di = num%10; 
+		System.out.print(di); 
+			num = num/10;
+	  		di = num%10; 
+		System.out.print(di); 
+			num = num/10;
 	
 	
-	for(int i =0; i<5; i++) {
-		di=num%10;
-		System.out.print(di);
-		num = num/10;
-	}
+	
+	
 	
 	
 	
